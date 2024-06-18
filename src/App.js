@@ -14,9 +14,9 @@ import kids_banner from './Components/Assets/banner_kids.png'
 import Login from './Components/Pages/Login';
 function App() {
   return (
-    <div>
+    <div> 
     <BrowserRouter>
-     <Navbar/>
+     <Navbar/>  
      <Routes>
       <Route path='/' element={<Shop/>}/>
       <Route path='/men' element={<ShopCategory banner={mens_banner} category="men"/>}/>

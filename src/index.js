@@ -7,7 +7,7 @@ import ShopContextprovider from './Components/context/ShopContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ShopContextprovider>   <App /></ShopContextprovider>
+  <ShopContextprovider><App /></ShopContextprovider>
  
     
 );
